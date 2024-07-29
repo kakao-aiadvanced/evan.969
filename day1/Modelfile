@@ -1,7 +1,7 @@
 FROM llama3
 
 # set the temperature to 1 [higher is more creative, lower is more coherent]
-PARAMETER temperature 5
+PARAMETER temperature 0.1
 
 # set the system message
 SYSTEM """
